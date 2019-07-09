@@ -135,16 +135,11 @@ footer {
     flex-direction: column;
   }
   #gallery {
-    width: 60%;
+    width: 80%;
   }
   .project-tile {
     width: 100%;
     height: auto;
-  }
-}
-@media (max-width: 480px) {
-  #gallery {
-    width: 80%;
   }
 }
 

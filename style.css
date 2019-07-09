@@ -40,6 +40,7 @@ span {
 }
 #welcome-section {
   border-bottom: 1px solid white;
+  background-attachment: fixed;
   background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.mikereyfman.com%2Fwp-content%2Fgallery%2Fpanoramic-1-to-2-ratio%2FD1A7214-15_Pano-Home-4-1.jpg&f=1");
   background-size: cover;
   background-repeat: no-repeat;

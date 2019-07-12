@@ -81,7 +81,7 @@ h2 {
 .project-tile {
   overflow: hidden;
   border-radius: 5%;
-  height: 12rem;
+  height: auto;
   width: 25%;
   background-color: black;
   border: 1px solid lightgrey;
@@ -102,7 +102,7 @@ h2 {
   text-align: center;
   padding: .5rem;
   color: white;
-  height: 20%;
+  max-height: 20%;
   width: 100%;
 }
 img {
@@ -127,19 +127,18 @@ footer {
     font-size: 12px;
   }
   #navbar {
-    font-size: .75rem;
+    font-size: 1rem;
     padding: .5rem 1rem;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 4.5rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .project a {
     width: 100%;
-    color: orange;
-    font-size: 90%;
+    font-size: 1.5rem;
     padding: .1rem;
   }
   #welcome-section {
@@ -163,8 +162,12 @@ footer {
 }
 
 @media (min-width: 1368px) {
-  #gallery {
+  .project-tile {
+    width: 25%;
     height: auto;
-    width: 55%;
+  }
+  #gallery {
+    height: 50%;
+    width: 80%;
   }
 }
